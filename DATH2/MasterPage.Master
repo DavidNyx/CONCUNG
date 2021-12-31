@@ -1,11 +1,11 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ConCung.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="ConCung.Site1" %>
 
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
     <title>ConCung</title>
-    <link rel="stylesheet" href="Styles/StyleSheet1.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/StyleSheet.css" type="text/css" media="screen"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -18,7 +18,7 @@
                 </div>
                 <div id="navigation">
                     <ul id="nav">
-                        <li> <asp:HyperLink ID="HyperLink1" runat="server">Webshop</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Webshop</asp:HyperLink></li>
                         <li> <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/About.aspx">About us</asp:HyperLink></li>
                         <li> <asp:HyperLink ID="HyperLink3" runat="server">Reports</asp:HyperLink></li>
                         <li> <asp:HyperLink ID="HyperLink4" runat="server">Management</asp:HyperLink></li>

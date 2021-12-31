@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Windows;
 
 namespace ConCung.Management
 {
@@ -45,6 +47,11 @@ namespace ConCung.Management
                 ProductID = "LSP" + count.ToString();
             }
 
+            if (BelongProductID != "NULL")
+            {
+                BelongProductID = "'" + BelongProductID + "'";
+            }
+
             string query = "INSERT INTO LOAISP (MA_LOAI, TEN_LOAI, LOAISP_CHA) VALUES ('" + ProductID + "', N'" + ProductType + "', " + BelongProductID + ")";
             sqlCommand = new SqlCommand(query, sqlCon);
             sqlCommand.ExecuteNonQuery();
@@ -60,7 +67,12 @@ namespace ConCung.Management
                 DropDownList1.Items.Insert(0, new ListItem("Không", "NULL"));
                 DropDownList1.SelectedValue = "NULL";
             }
-            
+            DataView dv = (DataView)SqlDataSource1.Select(DataSourceSelectArguments.Empty);
+            foreach (DataRow row in dv.Table.Rows)
+            {
+                MessageBox.Show(row[0].ToString());
+            }
+
         }
     }
 }

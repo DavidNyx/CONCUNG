@@ -114,6 +114,15 @@ namespace ConCung.Management
         protected global::System.Web.UI.WebControls.TextBox txtPrice;
 
         /// <summary>
+        /// ddlImages control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlImages;
+
+        /// <summary>
         /// Submit control.
         /// </summary>
         /// <remarks>
@@ -121,5 +130,14 @@ namespace ConCung.Management
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Submit;
+
+        /// <summary>
+        /// lblResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblResult;
     }
 }
