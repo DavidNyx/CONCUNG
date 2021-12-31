@@ -225,7 +225,8 @@ GO
 INSERT SIEUTHI(MA_ST, TEN_ST, DIACHI_ST, TGMOCUA)
 VALUES
 	('ST0001', N'Chi nhánh 1', N'28-30-32-34 Nguyễn Thị Thập, phường Bình Thuận, quận 7', '08:00-22:00'),
-	('ST0002', N'Chi nhánh 2', N'175 Lâm Văn Bền, phường Bình Thuận, quận 7', '08:00-22:00')
+	('ST0002', N'Chi nhánh 2', N'175 Lâm Văn Bền, phường Bình Thuận, quận 7', '08:00-22:00'),
+	('ST0003', N'Chi nhánh 2', N'424 Nguyễn Thị Minh Khai, P.5', '08:00-22:00')
 GO
 
 INSERT KHO(MA_ST, MA_SP, SOLUONGTON)
