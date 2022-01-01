@@ -10,14 +10,17 @@
     <p>
         Mật khẩu:</p>
     <p>
-        <asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
     </p>
     <p>
         Nhập lại mật khẩu:</p>
     <p>
-        <asp:TextBox ID="txtRePass" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtRePass" runat="server" TextMode="Password"></asp:TextBox>
     </p>
     <p>
         <asp:Button ID="Submit" runat="server" OnClick="Submit_Click" Text="Đăng ký" Width="150px" />
+    </p>
+    <p>
+        <asp:Literal ID="litStatusMessage" runat="server"></asp:Literal>
     </p>
 </asp:Content>
