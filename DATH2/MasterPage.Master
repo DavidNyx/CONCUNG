@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title>ConCung</title>
-    <link rel="stylesheet" href="Styles/StyleSheet1.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="Styles/StyleSheet.css" type="text/css" media="screen"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

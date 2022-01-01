@@ -31,7 +31,7 @@
                 <br />
                 <br />
                 Số lượng:<asp:DropDownList ID="ddlAmount" runat="server"></asp:DropDownList><br />
-                <asp:Button ID="btnAdd" runat="server" Text="Button" />
+                <asp:Button ID="btnAdd" runat="server" Text="Đặt hàng" CssClass="button" OnClick="btnAdd_Click" />
                 <br />
                 <asp:Label ID="lblResult" runat="server"></asp:Label>
             </td>
