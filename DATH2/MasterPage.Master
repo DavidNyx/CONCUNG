@@ -20,8 +20,8 @@
                     <ul id="nav">
                         <li> <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Webshop</asp:HyperLink></li>
                         <li> <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/About.aspx">About us</asp:HyperLink></li>
-                        <li> <asp:HyperLink ID="HyperLink3" runat="server">Reports</asp:HyperLink></li>
-                        <li> <asp:HyperLink ID="HyperLink4" runat="server">Management</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Pages/ShoppingCart.aspx">Shopping Cart</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Pages/Management/ManageMenu.aspx">Management</asp:HyperLink></li>
 
                         <li style="float: right">
                         <asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="~/Pages/Account/Register.aspx">Register</asp:HyperLink>

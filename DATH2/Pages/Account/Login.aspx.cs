@@ -36,7 +36,8 @@ namespace ConCung.Pages.Account
                 DataContainer.login = true;
                 DataContainer.userPhoneNum = phoneNum;
                 DataContainer.userName = phoneNum;
-                Response.Redirect("~/Pages/Management/ManageProduct.aspx");
+                DataContainer.managerCheck = true;
+                Response.Redirect("~/Pages/Management/ManageMenu.aspx");
             }
             else
             {

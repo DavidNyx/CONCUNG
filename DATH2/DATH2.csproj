@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -78,12 +79,13 @@
     <Content Include="Pages\Account\Register.aspx" />
     <Content Include="Pages\Account\RegisterCustomer.aspx" />
     <Content Include="Pages\Account\RegisterManager.aspx" />
-    <Content Include="Pages\Hieu.aspx" />
-    <Content Include="Pages\Hieu2.aspx" />
+    <Content Include="Pages\Management\ManageMenu.aspx" />
     <Content Include="Pages\Management\ManageProduct.aspx" />
     <Content Include="Pages\Management\ManageProductBrand.aspx" />
     <Content Include="Pages\Management\ManageProductType.aspx" />
     <Content Include="Pages\Product.aspx" />
+    <Content Include="Pages\ShoppingCart.aspx" />
+    <Content Include="Pages\Success.aspx" />
     <Content Include="Styles\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -138,19 +140,12 @@
     <Compile Include="Pages\Account\RegisterManager.aspx.designer.cs">
       <DependentUpon>RegisterManager.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Hieu.aspx.cs">
-      <DependentUpon>Hieu.aspx</DependentUpon>
+    <Compile Include="Pages\Management\ManageMenu.aspx.cs">
+      <DependentUpon>ManageMenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Hieu.aspx.designer.cs">
-      <DependentUpon>Hieu.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Hieu2.aspx.cs">
-      <DependentUpon>Hieu2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Hieu2.aspx.designer.cs">
-      <DependentUpon>Hieu2.aspx</DependentUpon>
+    <Compile Include="Pages\Management\ManageMenu.aspx.designer.cs">
+      <DependentUpon>ManageMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Management\ManageProduct.aspx.cs">
       <DependentUpon>ManageProduct.aspx</DependentUpon>
@@ -179,6 +174,20 @@
     </Compile>
     <Compile Include="Pages\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
