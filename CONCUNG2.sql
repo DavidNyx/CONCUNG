@@ -52,7 +52,7 @@ GO
 
 INSERT SANPHAM(MA_SP, TEN_SP, MIEUTA, MA_LOAI, MA_TH, COMBO, MA_KM, GIA, SOLUONGTON)
 VALUES
-	('SP0000000000001', N'Sữa Meiji Infant Formula 800g (0-12 tháng)', N'Sữa mẹ là thức ăn tốt nhất cho sức khỏe và sự phát triển toàn diện của trẻ nhỏ
+	('SP00000001', N'Sữa Meiji Infant Formula 800g (0-12 tháng)', N'Sữa mẹ là thức ăn tốt nhất cho sức khỏe và sự phát triển toàn diện của trẻ nhỏ
 Meiji Infant Formula 800g (0-1 tuổi): lon thiếc dày dặn, nắp nhựa trắng có sẵn thanh gạt giúp việc đong sữa dễ dàng hơn. Thìa đong đựng sẵn trong lon, được thiết kế để pha chuẩn 20ml sữa. 
 Bột sữa Meiji Infant Formula có màu vàng nhạt, hương vị tự nhiên từ sữa, các hạt tơi mịn, không bị vón cục.
 Quang cao lo vang_220521-01-min
@@ -71,7 +71,7 @@ Quang cao lo vang_220521-06-min
 Hướng dẫn bảo quản:ảnh 5_ hướng dẫn bảo quản
 ',
 	'LSP001', 'TH0001', 0, NULL, 529000, 1000),
-	('SP0000000000002', N'Combo 2 lon Sữa Meiji Infant Formula 800g (0-12 tháng)', N'Sữa mẹ là thức ăn tốt nhất cho sức khỏe và sự phát triển toàn diện của trẻ nhỏ
+	('SP00000002', N'Combo 2 lon Sữa Meiji Infant Formula 800g (0-12 tháng)', N'Sữa mẹ là thức ăn tốt nhất cho sức khỏe và sự phát triển toàn diện của trẻ nhỏ
 	Meiji Infant Formula 800g (0-1 tuổi): lon thiếc dày dặn, nắp nhựa trắng có sẵn thanh gạt giúp việc đong sữa dễ dàng hơn. Thìa đong đựng sẵn trong lon, được thiết kế để pha chuẩn 20ml sữa. 
 Bột sữa Meiji Infant Formula có màu vàng nhạt, hương vị tự nhiên từ sữa, các hạt tơi mịn, không bị vón cục.
 Dinh dưỡng nổi bật:
@@ -85,7 +85,7 @@ Hướng dẫn sử dụng:
 ảnh 4_ hướng dẫn sử dụng
 Hướng dẫn bảo quản:ảnh 5_ hướng dẫn bảo quản',
 	'LSP001', 'TH0001', 1, NULL, 1048000, 2000),
-	('SP0000000000003', N'Sữa Nan Optipro 2 900g, HMO (6-12 tháng)', N'Sữa mẹ là thức ăn tốt nhất cho sức khỏe và sự phát triển toàn diện của trẻ nhỏ
+	('SP00000003', N'Sữa Nan Optipro 2 900g, HMO (6-12 tháng)', N'Sữa mẹ là thức ăn tốt nhất cho sức khỏe và sự phát triển toàn diện của trẻ nhỏ
 Với hơn 150 năm kinh nghiệm, Nestlé không ngừng tiên phong nghiên cứu & sáng tạo trong lĩnh vực dinh dưỡng dành cho trẻ nhỏ. Ứng dụng những nghiên cứu tiên tiến của Nestlé cho sức khỏe lâu dài của trẻ, Nestlé NAN OPTIPRO tự hào là người bạn đồng hành đáng tin cậy cùng mẹ nuôi dưỡng trọn tiềm năm trong con. 
 - Sản phẩm dinh dưỡng công thức Nestlé® NAN® OPTIPRO® 2 900g với công thức từ Thụy Sĩ, nhập khẩu chính hãng bởi Nestlé Việt Nam
 - Sản phẩm dinh dưỡng công thức cho trẻ từ 6-12 tháng tuổi
@@ -98,7 +98,7 @@ Mô tả sản phẩm Nestlé® NAN® OPTIPRO® 2 là sản phẩm dinh dưỡng
 Nestlé® NAN® OPTIPRO ® 2 được chứng nhận an toàn cho trẻ bởi FDA (Cục Quản lý Dược phẩm & Thực phẩm Hoa Kỳ) và EFSA (Ủy ban ATTP Châu Âu) 
 NAN-2-900g copy copy',
 	'LSP001', 'TH0002', 0, NULL, 429000, 3000),
-	('SP0000000000004', N'Tã dán Bobby siêu thấm - khô thoáng (S, 4-8kg, 54 miếng)', N'Ưu điểm nổi bật:
+	('SP00000004', N'Tã dán Bobby siêu thấm - khô thoáng (S, 4-8kg, 54 miếng)', N'Ưu điểm nổi bật:
 LÕI NÉN COTTON-SOFT(1) 3 mm SIÊU MỀM - MỚI: Công nghệ ép đặc biệt chỉ 3 mm cùng bề mặt Cotton-soft(1) cho tã siêu mềm, mỏng mà vẫn thấm hút lượng lớn chất lỏng.
 ĐỆM THUN THẤM MỒ HÔI: Lớp đệm siêu mềm với khả năng thấm mồ hôi tức thì, chăm sóc vùng bụng và lưng bé, giảm vết hằn trên da, cho bé luôn êm mềm và khô thoáng
 BỀ MẶT 4.000 LỖ THẤM SIÊU TỐC: Cấu tạo bề mặt đột phá với hơn 4.000  lỗ thấm hút siêu nhanh cho tã thoáng khí hơn gấp 2 lần(3), tã mỏng, luôn khô thoáng từ trong ra ngoài.
@@ -113,12 +113,12 @@ Lưu ý:
 Thay tã sau khoảng thời gian đều đặn và thay ngay sau khi bé tiêu bẩn.
 Ngừng sử dụng và hỏi ý kiến bác sĩ nếu xuất hiện bất thường trên da.',
 	'LSP002', 'TH0003', 0, NULL, 189000, 800),
-	('SP0000000000005', N'QT Bobby - Chậu rửa mặt gấp gọn màu hồng', NULL, NULL, 'TH0003', 0, 'SP0000000000004', NULL, 1000),
-	('SP0000000000006', N'QT Bobby - Chậu rửa mặt gấp gọn màu xanh', NULL, NULL, 'TH0003', 0, 'SP0000000000004', NULL, 1000),
-	('SP0000000000007', N'Siro giúp bé ngủ ngon, ngủ sâu Fitobimbi Sonno', N'Siro giúp trẻ ngủ ngon Sonno Bimbi giúp hỗ trợ cải thiện chất lượng giấc ngủ, giúp bé dễ dàng chìm vào giấc ngủ, ngủ ngon và sâu hơn. Hạn chế tình trạng trẻ thức giấc, quấy khóc vào ban đêm. Sản phẩm dạng siro hương vị thơm ngon, dễ uống, phù hợp với cả trẻ sơ sinh và trẻ nhỏ. Chiết xuất 100% từ các thảo dược thiên nhiên, không chứa gluten đảm bảo an toàn với sức khỏe của trẻ.
+	('SP00000005', N'QT Bobby - Chậu rửa mặt gấp gọn màu hồng', NULL, NULL, 'TH0003', 0, 'SP00000004', NULL, 1000),
+	('SP00000006', N'QT Bobby - Chậu rửa mặt gấp gọn màu xanh', NULL, NULL, 'TH0003', 0, 'SP00000004', NULL, 1000),
+	('SP00000007', N'Siro giúp bé ngủ ngon, ngủ sâu Fitobimbi Sonno', N'Siro giúp trẻ ngủ ngon Sonno Bimbi giúp hỗ trợ cải thiện chất lượng giấc ngủ, giúp bé dễ dàng chìm vào giấc ngủ, ngủ ngon và sâu hơn. Hạn chế tình trạng trẻ thức giấc, quấy khóc vào ban đêm. Sản phẩm dạng siro hương vị thơm ngon, dễ uống, phù hợp với cả trẻ sơ sinh và trẻ nhỏ. Chiết xuất 100% từ các thảo dược thiên nhiên, không chứa gluten đảm bảo an toàn với sức khỏe của trẻ.
 Sản phẩm cung cấp các dưỡng chất giúp tăng sức đề kháng, nhằm giảm các triệu chứng khó chịu gây quấy khóc, cân bằng hệ thần kinh… bằng các hoạt chất thiết yếu cùng thảo dược thiên nhiên để giúp bé có 1 giấc ngủ ngon và trọn vẹn.',
-	'LSP004', 'TH0004', 0, 'SP0000000000004', 345000, 1000),
-	('SP0000000000008', N'Vitamin và khoáng chất cho phụ nữ cho con bú Pregnacare Breast-Feeding', N'Pregnacare breast-feeding là thực phẩm chức năng đến từ Anh Quốc. Sản phẩm bổ sung vitamin và khoáng chất giúp tăng cường sức khoẻ và mang đến cho mẹ đang cho con bú nguồn sữa dồi dào, đủ dưỡng chất cần thiết cho con. 
+	'LSP004', 'TH0004', 0, 'SP00000004', 345000, 1000),
+	('SP00000008', N'Vitamin và khoáng chất cho phụ nữ cho con bú Pregnacare Breast-Feeding', N'Pregnacare breast-feeding là thực phẩm chức năng đến từ Anh Quốc. Sản phẩm bổ sung vitamin và khoáng chất giúp tăng cường sức khoẻ và mang đến cho mẹ đang cho con bú nguồn sữa dồi dào, đủ dưỡng chất cần thiết cho con. 
 Ưu điểm nổi bật
 Viên uống Pregnacare breast-feeding được sản xuất tại Anh Quốc và có tem chính hãng trên vỏ hộp. Sản phẩm không chứa màu nhân tạo, chất bảo quản và lactose nên rất an toàn với sức khỏe của các mẹ.
 Cung cấp đến 20 loại Vitamin và khoáng chất, sản phẩm giúp hỗ trợ:
@@ -145,7 +145,7 @@ Quy cách đóng gói: Hộp chứa 4 vỉ viên nén x 14 viên; 2 vỉ viên n
 Hạn sử dụng: 36 tháng kể từ ngày sản xuất (in trên bao bì)
 Thành phần chính: Mỗi viên nén có chứa: Calcium 350mg, Magnesium 75mg, Vitamin C 35mg, Vitamin E 10mg, Niacin 10mg, Sắt 8mg, Kẽm 7,5mg, Vitamin B6 5mg, Pantothenic acid 3 mg, Vitamin B1 2,5mg, Vitamin B2 1mg, Beta Carotene 1mg, Đồng 0,5mg, Folic acid 200mcg, Iốt 75 mcg, Biotin 75 mcg, Vitamin K 35mcg, Selen 15 mcg, Vitamin D3 5 mcg,  Vitamin B12 3mcg. Mỗi viên nang có chứa: DHA 300mg, EPA 60mg.',
 	'LSP005', 'TH0005', 0, NULL, 725000, 500),
-	('SP0000000000009', N'Viên uống bổ sung Vitamin C DHC', N'Viên uống Vitamin C DHC là sản phẩm đến từ thương hiệu uy tín của Nhật. Viên uống phù hợp với người có sức khoẻ yêu hoặc muốn làm đẹp da, giúp tăng sức đề kháng, làm sáng da và ngăn mụn trở lại.  
+	('SP00000009', N'Viên uống bổ sung Vitamin C DHC', N'Viên uống Vitamin C DHC là sản phẩm đến từ thương hiệu uy tín của Nhật. Viên uống phù hợp với người có sức khoẻ yêu hoặc muốn làm đẹp da, giúp tăng sức đề kháng, làm sáng da và ngăn mụn trở lại.  
 Ưu điểm nổi bật
 Viên uống DHC bổ sung 1000mg lượng vitamin C hằng ngày, có công dụng:
 Tăng cường sức đề kháng
@@ -178,11 +178,11 @@ GO
 
 INSERT CHITIETSP(MA_SP, STT, TEN_CT, THONGTIN_CT)
 VALUES
-	('SP0000000000001', 1, N'Tên sản phẩm', N'Thực phẩm bổ sung sản phẩm dinh dưỡng công thức cho trẻ từ 0 đến 12 tháng tuổi: Meiji 0-1 years old Infant Formula'),
-	('SP0000000000001', 2, N'Xuất xứ sản phẩm', N'Nhật Bản'),
-	('SP0000000000001', 3, N'Trọng lượng sản phẩm (kg)', N'0.8'),
-	('SP0000000000001', 4, N'Độ tuổi phù hợp', N'Cho trẻ từ 0-12 tháng'),
-	('SP0000000000001', 5, N'Hướng dẫn sử dụng	', N'- Rửa tay trước khi pha.
+	('SP00000001', 1, N'Tên sản phẩm', N'Thực phẩm bổ sung sản phẩm dinh dưỡng công thức cho trẻ từ 0 đến 12 tháng tuổi: Meiji 0-1 years old Infant Formula'),
+	('SP00000001', 2, N'Xuất xứ sản phẩm', N'Nhật Bản'),
+	('SP00000001', 3, N'Trọng lượng sản phẩm (kg)', N'0.8'),
+	('SP00000001', 4, N'Độ tuổi phù hợp', N'Cho trẻ từ 0-12 tháng'),
+	('SP00000001', 5, N'Hướng dẫn sử dụng	', N'- Rửa tay trước khi pha.
 - Đảm bảo các đồ dùng và thiết bị sạch sẽ và được tiệt trùng trong nước sôi.
 - Sử dụng muỗng kèm trong hộp để lấy chính xác lượng bột cần thiết và đổ vào bình đã được tiệt trùng.
 - Đổ nước nóng vào bình khoảng 2/3 tổng khối lượng nước được chỉ định.
@@ -191,12 +191,12 @@ VALUES
 - Để nguội xuống còn tầm 38 độ thì cho bé uống.
 - Nếu muốn làm nguội nhanh, bạn có thể cho bình ngâm trong bát nước lạnh.
 - Trước khi cho bé dùng, hãy kiểm tra nhiệt độ để tránh bỏng vòm họng của bé, nếu như nhỏ một vài giọt ra cổ tay mà chỉ còn âm ấm là có thể cho bé dùng được.'),
-	('SP0000000000001', 6, N'Hướng dẫn bảo quản	', N'- Đậy kín nắp hộp sau khi mở và để ở nơi mát, khô ráo.
+	('SP00000001', 6, N'Hướng dẫn bảo quản	', N'- Đậy kín nắp hộp sau khi mở và để ở nơi mát, khô ráo.
 - Không nên cho sản phẩm vào tủ lạnh.
 - Nên sử dụng trong vòng 4 tuần từ khi mở sản phẩm'),
-	('SP0000000000003', 1, N'Xuất xứ sản phẩm', N'Việt Nam'),
-	('SP0000000000003', 2, N'Kích cỡ (size)', N'S'),
-	('SP0000000000003', 3, N'Độ tuổi phù hợp', N'4-8kg')
+	('SP00000003', 1, N'Xuất xứ sản phẩm', N'Việt Nam'),
+	('SP00000003', 2, N'Kích cỡ (size)', N'S'),
+	('SP00000003', 3, N'Độ tuổi phù hợp', N'4-8kg')
 GO
 
 INSERT PHIEUGGQT(MA_PHIEU, TEN_PHIEU, GIATRI_PHIEU)
@@ -207,19 +207,19 @@ GO
 
 INSERT DONHANG(MA_DH, SDT, TINHTRANG, MA_PHIEU, TIENHANG, THANHTIEN)
 VALUES
-	('DH0000000000001', '0938391731', N'Hoàn tất', NULL, 0, 0),
-	('DH0000000000002', '0938391731', N'Hoàn tất', 'MP0001', 1436000, 1336000),
-	('DH0000000000003', '1234567890', N'Hoàn tất', 'MP0002', 774000, 386000)
+	('DH00000001', '0938391731', N'Hoàn tất', NULL, 0, 0),
+	('DH00000002', '0938391731', N'Hoàn tất', 'MP0001', 1436000, 1336000),
+	('DH00000003', '1234567890', N'Hoàn tất', 'MP0002', 774000, 386000)
 GO
 
 INSERT CHITIETDH(MA_DH, MA_SP, SO_LUONG)
 VALUES
-	('DH0000000000001', 'SP0000000000001', 2),
-	('DH0000000000001', 'SP0000000000004', 2),
-	('DH0000000000002', 'SP0000000000001', 2),
-	('DH0000000000002', 'SP0000000000004', 2),
-	('DH0000000000003', 'SP0000000000003', 1),
-	('DH0000000000003', 'SP0000000000007', 1)
+	('DH00000001', 'SP00000001', 2),
+	('DH00000001', 'SP00000004', 2),
+	('DH00000002', 'SP00000001', 2),
+	('DH00000002', 'SP00000004', 2),
+	('DH00000003', 'SP00000003', 1),
+	('DH00000003', 'SP00000007', 1)
 GO
 
 INSERT SIEUTHI(MA_ST, TEN_ST, DIACHI_ST, TGMOCUA)
@@ -233,26 +233,26 @@ VALUES
 	('ST0007', N'Chi nhánh 7', N'175 Lâm Văn Bền, phường Bình Thuận, quận 7', '08:00-22:00')
 GO
 
-INSERT KHO(MA_ST, MA_SP, SOLUONGTON)
+INSERT KHO(MA_ST, MA_SP)
 VALUES
-	('ST0001', 'SP0000000000001', 1000),
-	('ST0001', 'SP0000000000002', 800),
-	('ST0001', 'SP0000000000003', 1000),
-	('ST0001', 'SP0000000000004', 4000),
-	('ST0001', 'SP0000000000005', 0),
-	('ST0001', 'SP0000000000006', 1000),
-	('ST0001', 'SP0000000000007', 0),
-	('ST0001', 'SP0000000000008', 0),
-	('ST0001', 'SP0000000000009', 1000),
-	('ST0002', 'SP0000000000001', 1000),
-	('ST0002', 'SP0000000000002', 800),
-	('ST0002', 'SP0000000000003', 1000),
-	('ST0002', 'SP0000000000004', 0),
-	('ST0002', 'SP0000000000005', 1000),
-	('ST0002', 'SP0000000000006', 1000),
-	('ST0002', 'SP0000000000007', 4000),
-	('ST0002', 'SP0000000000008', 1000),
-	('ST0002', 'SP0000000000009', 1000)
+	('ST0001', 'SP00000001'),
+	('ST0001', 'SP00000002'),
+	('ST0001', 'SP00000003'),
+	('ST0001', 'SP00000004'),
+	('ST0001', 'SP00000005'),
+	('ST0001', 'SP00000006'),
+	('ST0001', 'SP00000007'),
+	('ST0001', 'SP00000008'),
+	('ST0001', 'SP00000009'),
+	('ST0002', 'SP00000001'),
+	('ST0002', 'SP00000002'),
+	('ST0002', 'SP00000003'),
+	('ST0002', 'SP00000004'),
+	('ST0002', 'SP00000005'),
+	('ST0002', 'SP00000006'),
+	('ST0002', 'SP00000007'),
+	('ST0002', 'SP00000008'),
+	('ST0002', 'SP00000009')
 GO
 
 --SELECT*FROM BOME
@@ -261,7 +261,7 @@ GO
 --SELECT*FROM THUONGHIEU
 --SELECT*FROM LOAISP
 --SELECT*FROM CHITIETLOAI
---SELECT*FROM SANPHAM
+SELECT*FROM SANPHAM
 --SELECT*FROM CHITIETSP
 --SELECT*FROM PHIEUGGQT
 --SELECT*FROM DONHANG
