@@ -40,6 +40,7 @@ namespace ConCung.Management
             bool combo = cboxCombo.Checked;
             string SaleCode = ddlSale.SelectedValue.ToString();
             double Price = Convert.ToDouble(txtPrice.Text);
+            int Amount = Convert.ToInt32(txtAmount.Text);
             string Image = ddlImages.SelectedValue.ToString();
 
             String AmountQuery = "SELECT COUNT(*) FROM SANPHAM";
@@ -102,8 +103,8 @@ namespace ConCung.Management
                 SaleCode = "'" + SaleCode + "'";
             }
 
-            string query = "INSERT INTO SANPHAM (MA_SP, TEN_SP, MIEUTA, MA_LOAI, MA_TH, COMBO, MA_KM, GIA, IMAGE) " +
-                "VALUES ('" + ProductID + "', N'" + ProductName + "', N'" + Description + "', '" + ProductType + "', '" + Brand + "', " + cb.ToString() + ", " + SaleCode + ", " + Price.ToString() + ", '" + Image + "')";
+            string query = "INSERT INTO SANPHAM (MA_SP, TEN_SP, MIEUTA, MA_LOAI, MA_TH, COMBO, MA_KM, GIA, SOLUONGTON, IMAGE) " +
+                "VALUES ('" + ProductID + "', N'" + ProductName + "', N'" + Description + "', '" + ProductType + "', '" + Brand + "', " + cb.ToString() + ", " + SaleCode + ", " + Price.ToString() + ", " + Amount.ToString() + ", '" + Image + "')";
             sqlCommand = new SqlCommand(query, sqlCon);
             sqlCommand.ExecuteNonQuery();
 

@@ -44,7 +44,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="PresentationFramework" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -70,12 +69,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Image\con-cung.jpg" />
+    <Content Include="Image\concung.jpg" />
+    <Content Include="Image\Products\long.jpg" />
+    <Content Include="Image\Products\meiji-infant-formula-800g-0-12-thang.jpg" />
     <Content Include="Index.aspx" />
-    <Content Include="Management\ManageProduct.aspx" />
-    <Content Include="Management\ManageProductBrand.aspx" />
-    <Content Include="Management\ManageProductType.aspx" />
     <Content Include="Pages\About.aspx" />
+    <Content Include="Pages\Account\Login.aspx" />
+    <Content Include="Pages\Account\Register.aspx" />
+    <Content Include="Pages\Management\ManageProduct.aspx" />
+    <Content Include="Pages\Management\ManageProductBrand.aspx" />
+    <Content Include="Pages\Management\ManageProductType.aspx" />
     <Content Include="Pages\Product.aspx" />
     <Content Include="Styles\StyleSheet.css" />
     <Content Include="Styles\StyleSheet1.css" />
@@ -90,26 +93,12 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Management\ManageProduct.aspx.cs">
-      <DependentUpon>ManageProduct.aspx</DependentUpon>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Management\ManageProduct.aspx.designer.cs">
-      <DependentUpon>ManageProduct.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Management\ManageProductBrand.aspx.cs">
-      <DependentUpon>ManageProductBrand.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Management\ManageProductBrand.aspx.designer.cs">
-      <DependentUpon>ManageProductBrand.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Management\ManageProductType.aspx.cs">
-      <DependentUpon>ManageProductType.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Management\ManageProductType.aspx.designer.cs">
-      <DependentUpon>ManageProductType.aspx</DependentUpon>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Pages\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -117,6 +106,41 @@
     </Compile>
     <Compile Include="Pages\About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Management\ManageProduct.aspx.cs">
+      <DependentUpon>ManageProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Management\ManageProduct.aspx.designer.cs">
+      <DependentUpon>ManageProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Management\ManageProductBrand.aspx.cs">
+      <DependentUpon>ManageProductBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Management\ManageProductBrand.aspx.designer.cs">
+      <DependentUpon>ManageProductBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Management\ManageProductType.aspx.cs">
+      <DependentUpon>ManageProductType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Management\ManageProductType.aspx.designer.cs">
+      <DependentUpon>ManageProductType.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Product.aspx.cs">
       <DependentUpon>Product.aspx</DependentUpon>
@@ -126,17 +150,10 @@
       <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MasterPage.Master.cs">
-      <DependentUpon>MasterPage.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MasterPage.Master.designer.cs">
-      <DependentUpon>MasterPage.Master</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <Content Include="MasterPage.Master" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -147,6 +164,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

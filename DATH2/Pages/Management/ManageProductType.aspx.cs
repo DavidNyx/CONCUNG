@@ -67,12 +67,6 @@ namespace ConCung.Management
                 DropDownList1.Items.Insert(0, new ListItem("Không", "NULL"));
                 DropDownList1.SelectedValue = "NULL";
             }
-            DataView dv = (DataView)SqlDataSource1.Select(DataSourceSelectArguments.Empty);
-            foreach (DataRow row in dv.Table.Rows)
-            {
-                MessageBox.Show(row[0].ToString());
-            }
-
         }
     }
 }

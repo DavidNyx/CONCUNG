@@ -27,7 +27,7 @@ namespace ConCung
                     Label lblName = new Label();
                     Label lblPrice = new Label();
 
-                    imageButton.ImageUrl = "~/Image/Products/" + product[8].ToString();
+                    imageButton.ImageUrl = "~/Image/Products/" + product[9].ToString();
                     imageButton.CssClass = "productImage";
                     imageButton.PostBackUrl = "~/Pages/Product.aspx?id=" + product[0].ToString();
 

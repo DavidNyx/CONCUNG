@@ -40,6 +40,10 @@
     <asp:TextBox ID="txtPrice" runat="server" TextMode="Number"></asp:TextBox>
     <br />
     <br />
+    Số lượng tồn kho:<br />
+    <asp:TextBox ID="txtAmount" runat="server" TextMode="Number"></asp:TextBox>
+    <br />
+    <br />
     Ảnh:<br />
     <asp:DropDownList ID="ddlImages" runat="server">
     </asp:DropDownList>
