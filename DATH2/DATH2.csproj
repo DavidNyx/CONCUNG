@@ -76,6 +76,10 @@
     <Content Include="Pages\About.aspx" />
     <Content Include="Pages\Account\Login.aspx" />
     <Content Include="Pages\Account\Register.aspx" />
+    <Content Include="Pages\Account\RegisterCustomer.aspx" />
+    <Content Include="Pages\Account\RegisterManager.aspx" />
+    <Content Include="Pages\Hieu.aspx" />
+    <Content Include="Pages\Hieu2.aspx" />
     <Content Include="Pages\Management\ManageProduct.aspx" />
     <Content Include="Pages\Management\ManageProductBrand.aspx" />
     <Content Include="Pages\Management\ManageProductType.aspx" />
@@ -119,6 +123,34 @@
     </Compile>
     <Compile Include="Pages\Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account\RegisterCustomer.aspx.cs">
+      <DependentUpon>RegisterCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account\RegisterCustomer.aspx.designer.cs">
+      <DependentUpon>RegisterCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account\RegisterManager.aspx.cs">
+      <DependentUpon>RegisterManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account\RegisterManager.aspx.designer.cs">
+      <DependentUpon>RegisterManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Hieu.aspx.cs">
+      <DependentUpon>Hieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Hieu.aspx.designer.cs">
+      <DependentUpon>Hieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Hieu2.aspx.cs">
+      <DependentUpon>Hieu2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Hieu2.aspx.designer.cs">
+      <DependentUpon>Hieu2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Management\ManageProduct.aspx.cs">
       <DependentUpon>ManageProduct.aspx</DependentUpon>

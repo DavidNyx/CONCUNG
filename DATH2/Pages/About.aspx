@@ -3,5 +3,5 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
-    - A product from Min</p>
+    - A product from Min and Group 9</p>
 </asp:Content>

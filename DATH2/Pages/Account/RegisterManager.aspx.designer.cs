@@ -15,48 +15,48 @@ namespace ConCung.Pages.Account
     {
 
         /// <summary>
-        /// _txtPhoneNum control.
+        /// txtPhoneNum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox _txtPhoneNum;
+        protected global::System.Web.UI.WebControls.TextBox txtPhoneNum;
 
         /// <summary>
-        /// _txtPass control.
+        /// txtPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox _txtPass;
+        protected global::System.Web.UI.WebControls.TextBox txtPass;
 
         /// <summary>
-        /// _txtRePass control.
+        /// txtRePass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox _txtRePass;
+        protected global::System.Web.UI.WebControls.TextBox txtRePass;
 
         /// <summary>
-        /// btnRegister1 control.
+        /// Submit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnRegister1;
+        protected global::System.Web.UI.WebControls.Button btnRegister0;
 
         /// <summary>
-        /// _litStatusMessage control.
+        /// litStatusMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal _litStatusMessage;
+        protected global::System.Web.UI.WebControls.Literal litStatusMessage;
     }
 }

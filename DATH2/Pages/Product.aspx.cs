@@ -62,18 +62,25 @@ namespace ConCung.Pages
         {
             if (!string.IsNullOrWhiteSpace(Request.QueryString["id"]))
             {
+                if (DataContainer.login == true)
+                {
+                    string id = Convert.ToString(Request.QueryString["id"]);
+                    int amount = Convert.ToInt32(ddlAmount.SelectedValue);
+                    string connString = System.Configuration.ConfigurationManager.ConnectionStrings["CONCUNGConnectionString"].ConnectionString;
+                    SqlConnection sqlCon = new SqlConnection(connString);
+                    sqlCon.Open();
 
-                string id = Convert.ToString(Request.QueryString["id"]);
-                int amount = Convert.ToInt32(ddlAmount.SelectedValue);
-                string connString = System.Configuration.ConfigurationManager.ConnectionStrings["CONCUNGConnectionString"].ConnectionString;
-                SqlConnection sqlCon = new SqlConnection(connString);
-                sqlCon.Open();
+                    SqlCommand sqlCommand = new SqlCommand("INSERT INTO GIOHANG (SDT, MA_SP, SOLUONG) VALUES ('" + DataContainer.userPhoneNum + "', '" + id + "', " + amount.ToString() + ")", sqlCon);
 
-                SqlCommand sqlCommand = new SqlCommand("INSERT INTO GIOHANG (SDT, MA_SP, SOLUONG) VALUES ('" + "0938391731" + "', '" + id + "', " + amount.ToString() + ")", sqlCon);
-
-                sqlCommand.ExecuteNonQuery();
-                sqlCon.Close();
-                lblResult.Text = "Đã thêm sản phẩm vào giỏ hàng.";
+                    sqlCommand.ExecuteNonQuery();
+                    sqlCon.Close();
+                    lblResult.Text = "Đã thêm sản phẩm vào giỏ hàng.";
+                }
+                else
+                {
+                    lblResult.Text = "Vui lòng đăng nhập để có thể đặt hàng!";
+                }
+                
             }
         }
     }

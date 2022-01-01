@@ -1,26 +1,18 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ConCung.Pages.Account.Register" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ConCung.Pages.Account.Register1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 401px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
-        Số điện thoại:</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bạn muốn đăng ký ở hệ Khách hàng hay quản lý?</p>
     <p>
-        <asp:TextBox ID="txtPhoneNum" runat="server"></asp:TextBox>
+        <asp:Button ID="btnCustomer" runat="server" CssClass="auto-style1" Font-Size="Large" Height="46px" OnClick="btnCustomer_Click" Text="KHÁCH HÀNG" Width="216px" />
     </p>
     <p>
-        Mật khẩu:</p>
-    <p>
-        <asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
-    </p>
-    <p>
-        Nhập lại mật khẩu:</p>
-    <p>
-        <asp:TextBox ID="txtRePass" runat="server" TextMode="Password"></asp:TextBox>
-    </p>
-    <p>
-        <asp:Button ID="Submit" runat="server" OnClick="Submit_Click" Text="Đăng ký" Width="150px" />
-    </p>
-    <p>
-        <asp:Literal ID="litStatusMessage" runat="server"></asp:Literal>
+        <asp:Button ID="btnManager" runat="server" CssClass="auto-style1" Font-Size="Large" Height="46px" OnClick="btnManager_Click" Text="QUẢN LÝ" Width="216px" />
     </p>
 </asp:Content>
