@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image\concung.jpg" />
+    <Content Include="Image\Products\bim-ta-quan-bobby.jpg" />
     <Content Include="Image\Products\long.jpg" />
     <Content Include="Image\Products\meiji-infant-formula-800g-0-12-thang.jpg" />
     <Content Include="Index.aspx" />
@@ -90,7 +91,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\Models\ProductModel.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

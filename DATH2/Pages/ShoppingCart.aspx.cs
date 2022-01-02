@@ -58,7 +58,8 @@ namespace ConCung.Pages
             SqlConnection sqlCon = new SqlConnection(connString);
             sqlCon.Open();
 
-            String AmountQuery = "SELECT TONGTIEN FROM BOME WHERE SDT='" + id + "'";
+            String AmountQuery = "UPDATE BOME SET TONGTIEN = 0 WHERE TONGTIEN IS NULL UPDATE BOME SET THANH_TIEN = 0 WHERE THANH_TIEN IS NULL " +
+                "SELECT TONGTIEN FROM BOME WHERE SDT='" + id + "'";
             SqlCommand sqlCommand = new SqlCommand(AmountQuery, sqlCon);
             subTotal = (double)sqlCommand.ExecuteScalar();
 
