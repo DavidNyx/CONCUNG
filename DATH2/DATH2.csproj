@@ -72,6 +72,7 @@
   <ItemGroup>
     <Content Include="Image\concung.jpg" />
     <Content Include="Image\Products\bim-ta-quan-bobby.jpg" />
+    <Content Include="Image\Products\chao-tuoi-cay-thi-ca-hoi.jpg" />
     <Content Include="Image\Products\long.jpg" />
     <Content Include="Image\Products\meiji-infant-formula-800g-0-12-thang.jpg" />
     <Content Include="Index.aspx" />
