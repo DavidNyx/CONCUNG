@@ -1,0 +1,1 @@
+Trước khi chạy app thì sửa lại tên server, tên database ở web.config, ở dòng ConnectionString
